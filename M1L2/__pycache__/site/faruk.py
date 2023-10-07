@@ -67,4 +67,4 @@ while True:
         else:
             await message.channel.send(message.content)
 
-    client.run("MTEzNjY5ODgwOTQ3MzMwNjcyNA.GKbPAJ.T00Mp155o01l4ipSc8J7II-oGHH1b7JVt4MLUg")
+    client.run("MTEzNjY5ODgwOTQ3MzMwNjcyNA.Gnu2SO.H2cAYU3WqLvzXkOmuzYjts5tEwTjkx2X6Q5R8o")

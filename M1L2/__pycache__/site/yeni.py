@@ -66,22 +66,22 @@ async def heh(ctx, count_heh = 100):
 async def yazi_tura(ctx):
     await ctx.send(f'{bot.user}! yazı mıtura mı?')
 
-@bot.command()
-async def tura(ctx):
-    if a == 1:
-        await ctx.send(f'Evet {bot.user}! Bildin!')
-    elif a != 1:
-        await ctx.send(f'Hayır {bot.user}! Bilemedin!')
+    @bot.command()
+    async def tura(ctx):
+        if a == 1:
+            await ctx.send(f'Evet {bot.user}! Bildin!')
+        elif a != 1:
+            await ctx.send(f'Hayır {bot.user}! Bilemedin!')
     
 
 
-@bot.command()
-async def yazi(ctx):
+    @bot.command()
+    async def yazi(ctx):
 
-    if a == 2:
-        await ctx.send(f'Evet {bot.user}! Bildin!')
-    elif a != 2:
-        await ctx.send(f'Hayır {bot.user}! Bilemedin!')
+        if a == 2:
+            await ctx.send(f'Evet {bot.user}! Bildin!')
+        elif a != 2:
+            await ctx.send(f'Hayır {bot.user}! Bilemedin!')
 
 
 @bot.event
@@ -125,4 +125,4 @@ async def mem(ctx):
 
 
 
-bot.run("MTEzNjY5ODgwOTQ3MzMwNjcyNA.GPF-98.YrRpFWl7EQp-WX9szA26WyHlWKdFSM5pxcVsdo")
+bot.run("MTEzNjY5ODgwOTQ3MzMwNjcyNA.Gnu2SO.H2cAYU3WqLvzXkOmuzYjts5tEwTjkx2X6Q5R8o")
